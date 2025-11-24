@@ -1,0 +1,327 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+  
+
+    p {
+        margin-bottom: 0;
+    }
+
+    sup {
+        margin-left: 2px;
+    }
+
+    a {
+        text-decoration: none;
+        color: color(srgb 0.7915 0.4028 0.4317);
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav-container {
+        display: flex;
+        background-color: color(srgb 1 0.9024 0.9259);
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    .nav-container-1 {
+        margin-top: 30px;
+    }
+
+    .nav-container-2 {
+        margin-top: 15px;
+    }
+
+    .nav-container-2 ul li {
+        padding: 20px;
+        list-style: none;
+    }
+
+    .landing-body-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .landing-body-main-segment {
+        margin-top: 17px;
+    }
+
+    .landing-body-feature-product-segment {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+
+
+    .feature-heading h4 {
+        font-size: 40px;
+        font-weight: 600;
+        color: color(srgb 0.7915 0.4028 0.4317);
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .card-title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+    .category-heading {
+        margin-top: 15px;
+        margin-left: 100px;
+        font-size: 40px;
+        font-weight: 600;
+        color: color(srgb 0.7915 0.4028 0.4317);
+    }
+
+
+
+    .categogry-card {
+        width: 6rem;
+        height: 6rem;
+    }
+
+
+    .category-image-holder {
+        width: 100%;
+        height: 4.5rem;
+    }
+
+    .category-image-holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    /* --------Admin Area------ */
+
+    .admin-navbar {
+        background-color: rgb(29, 29, 71);
+        color: white;
+    }
+
+
+
+    .admin-navbar-head {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+
+
+    .admin-main-body {
+        background-color: rgb(245, 244, 244);
+    }
+    /* --------------Admin Header------------- */
+
+    .admin-main-body-header {
+        width: 100%;
+    }
+
+
+
+    .admin-main-body-header-nav-pannel {
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+
+    }
+
+    .nav-pannel-notification-segment {
+        display: flex;
+    }
+
+    .nav-pannel-notification-segment ul {
+        display: flex;
+        list-style: none;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .nav-pannel-notification-segment ul li {
+        padding: 0px 20px;
+        font-size: 27px;
+    }
+
+
+    .nav-pannel-user {
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .nav-pannel-user-profile-picture img {
+        object-fit: contain;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    .nav-pannel-user-detail {
+        margin-top: 5px;
+    }
+
+    .nav-pannel-user-post {
+        margin-left: 4px;
+    }
+
+
+    /* -----------Admin Dashboard Segment First------ */
+
+    .admin-main-body-segment-first {
+        width: 100%;
+        padding-left: 5rem;
+    }
+
+
+    .admin-dashboard-card-first {
+        height: 23rem;
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .dashboard-card-user-icon {
+        height: 12rem;
+        font-size: 10rem;
+        color: orange;
+        margin-left: 60px;
+        /* border: 1px solid black; */
+    }
+
+    .dashboard-card-user-count {
+        /* border: 1px solid black; */
+        margin-left: 24%;
+        font-size: 3rem;
+        color: gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .dashboard-card-user-name {
+        margin-top: 10px;
+        margin-left: 22%;
+        font-size: 2rem;
+        color: gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .dashboard-card-product-icon {
+        height: 12rem;
+        font-size: 9rem;
+        color: rgb(28, 3, 73);
+        margin-left: 60px;
+        /* border: 1px solid black; */
+    }
+
+    .dashboard-card-product-count {
+        /* border: 1px solid black; */
+        margin-left: 24%;
+        font-size: 3rem;
+        color: gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .dashboard-card-product-name {
+        margin-top: 10px;
+        margin-left: 20%;
+        font-size: 2rem;
+        color: gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .dashboard-card-sale-icon {
+        height: 12rem;
+        font-size: 9rem;
+        color: rgb(28, 3, 73);
+        margin-left: 60px;
+        /* border: 1px solid black; */
+    }
+
+    .dashboard-card-sale-count {
+        /* border: 1px solid black; */
+        margin-left: 24%;
+        font-size: 3rem;
+        color: rgb(134, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .dashboard-card-sale-name {
+        margin-top: 10px;
+        margin-left: 24%;
+        font-size: 2rem;
+        color: gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .admin-dashboard-card-second {
+        background-color: white;
+        margin: 20px;
+        border-radius: 10px;
+        height: 30rem;
+    }
+
+    .admin-main-body-segment-second {
+        width: 100%;
+        padding-left: 3rem;
+    }
+
+
+    .card-second-header{
+        margin: 10px 10px;
+        height: 3rem;
+        border-bottom: 1px solid rgb(169, 166, 166);
+    }
+
+    .admin-navbar-control-ul{
+        margin-top: 4rem;
+    }
+
+    .admin-navbar-control-ul ul{
+        list-style: none;
+    }
+
+    .admin-navbar-control-ul ul li{
+        width: 100%;
+        height: 3rem;
+        padding: 15px 10px;
+        margin: 15px 0;
+        cursor: pointer;
+    }
+
+    .admin-navbar-control-ul li:hover{
+        background-color: white; 
+        color: rgb(4, 4, 87);   
+    }
+
+    .card-second-user-table{
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .card-second-user-table table{
+        max-width: 200%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    .card-second-user-table table th, .card-second-user-table table td{
+        /* border: 1px solid black; */
+        padding: 10px;
+    }
+
+    .card-second-user-table table td{
+        overflow-x: scroll  ;
+    }
